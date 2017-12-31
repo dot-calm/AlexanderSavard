@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!-- Yes, I did build the site... -->
+<!-- The code's not pretty but the work is. -->
+<!-- ¯\_(ツ)_/¯ -->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>About Alex</title>
+	<meta name="description" content="Information About Alexander Savard">
+	<meta name="keywords" content="William Alexander Alex Savard RISD UX Design Designer Product Portfolio Work User Experience">
+	<meta name="author" content="Alex Savard">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<!-- <link rel="stylesheet" href="stylesheets/skeleton.css"> -->
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&amp;subset=latin-ext" rel="stylesheet">
+
+
+	<!-- jQuery
+	================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<!-- Google Analytics
+	================================================== -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108620427-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-108620427-1');
+	</script>
+
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+	<header>
+			<div class="wrapper">
+				<div class="top-wrapper">
+					<a href="index.html" class="logotype">Alex Savard<span id="ownership">'s</span>
+					</a>
+					<div id="hamburger" onclick="menuDrop()">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+				</div>				
+				<nav id="mainmenu">
+					<ul>
+						<a href="digital.html"><li>Digital Work</li></a>
+						<a href="physical.html"><li>Physical Work</li></a>
+						<a href="other_projects.html"><li>Other Projects</li></a>
+						<a href="alex.html"><li>Bio</li></a>
+						<a href="contact.html"><li>Contact Info</li></a>
+					</ul>
+				</nav>
+			</div> <!-- wrapper -->	
+	</header>
+
+
+
+	<div class="main-body bio" id="main-body">
+		<div class="bio-hero" >
+			<div class="bio-headline-container">
+				<div class="wrapper">
+					<h1>My name is Alex <span>&</span><br> I believe days should be 26 hours long.
+					</h1>
+				</div>
+			</div>
+		</div>
+		<div class="sub-nav-enclosure">
+			<nav class="sub-nav wrapper3" id="subnav-anchor">
+				<ul id="sections">
+					<li onclick="subnavDrop()">Page Sections <span class="arrow" id="arrow"></span></li>
+				</ul>		
+				<ul id="section-items">
+					<a href="index.html" onclick="subnavDrop()"><li>My Work</li></a>
+					<a href="digital.html" onclick="subnavDrop()"><li>Digital Work</li></a>
+					<a href="physical.html" onclick="subnavDrop()"><li>Physical Work</li></a>
+					<a href="other_projects.html" onclick="subnavDrop()"><li>Other Work</li></a>
+					<a href="contact.html" onclick="subnavDrop()"><li class="highlight">Get in Touch</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="bio-summary">
+			<div class="nav-to-left wrapper">
+				<h2>
+					<span id="bio-title">tldr:</span> &nbsp;
+					I’m a robotics engineer turned product designer working in NYC. I combine human-centered design with advanced technology to solve problems and help people. I’m currently teaching UX Design at General Assembly while I plan my next move.
+				</h2>
+			</div>
+		</div>
+		<div class="project wrapper hr bio">
+			<h2>Who<span> I am</span></h2>
+			<p>
+				I’m an interdisciplinary product designer living and working in NYC.
+				<ul>
+					<li>I graduated from <a href="http://www.risd.edu/academics/industrial-design/" target="_blank">RISD</a> in 2012, where I studied Industrial Design.</li>
+					<li>After that, I designed some really cool shit at <a href="https://www.honeybeerobotics.com/" target="_blank">Honeybee Robotics.</a></li>
+					<li>I switched from physical to digital products in 2015 after learning to code.</li>
+					<li>I am currently teaching UX Design at <a href="https://generalassemb.ly/education/user-experience-design-immersive" target="_blank">General Assembly</a> in NYC.</li>
+				</ul>
+			</p>
+			<h2>What<span> I do</span></h2>
+			<p>
+				At the most basic level, I combine human-centered design with advanced technology to solve real problems for real people. More specifically I:
+			</p>
+			<ul>
+					<li>Research - to understand complexity & navigate ambiguity</li>
+					<li>Observe & empathize with users</li>
+					<li>Identify & define problems to solve</li>
+					<li>Ideate & explore potential solutions</li>
+					<li>Design advanced digital & physical systems that solve those problems</li>
+					<li>Test those systems to validate usability & utility</li>
+				</ul>
+			<p>
+				When I am not designing stuff, you can find me: throwing darts, throwing pottery, throwing parties & throwing my phone against the wall when I read the news.
+			</p>
+			<h2>Why<span> I do it</span></h2>
+			<ol>
+				<li>Improvement is a compulsion. I spend most of my waking hours thinking about how to make the things around me better. Sometimes those things are physical objects, sometimes they’re digital applications, & sometimes they’re geopolitical systems of governance. Whatever it happens to be, I really only have two modes of thinking about it: ‘how does it work?’ & ‘how could it work better?’<br>
+					*yes, this occasionally interferes with my personal relationships </li>
+				<li>I am one of those romantic designers who sincerely believes that design & design thinking will save the world. I believe that the practices and principles of great design are applicable to all human endeavors and are an incredible tool for enacting positive change at every conceivable scale. My mission is to help people; design is how I help.</li>
+			</ol>
+			<p>
+				I realize that all might sound broad & romantic but it’s accurate ¯\_(ツ)_/¯
+			</p>
+			<h2>How<span> I do it</span></h2>
+			<p>
+				More important than any of the tools I use in my design practice is the process itself. Although, my process is evolving and varies given different circumstances, it boils down to a couple simple elements: understanding through empathy, exploration through making, & validation  through testing. I am a big fan of designing the right thing before designing the thing right.
+			</p>
+			<h3>Tools</h3>
+			<p>
+				I use a lot of different tools at every stage of my design process. Some of those tools are analog like paper & post-its, others are software like Sketch & Solidworks, but at the end of the day they’re all just a means to deliver solutions that solve problems.
+			</p>
+			<p class="tools">
+				<span>Digital Tools:</span> Photoshop, Illustrator, InDesign, Sketch, InVision, & Flinto. <br>
+				<span>Physical Tools:</span> Solidworks, Autodesk Inventor, & Blender. <br>
+				<span>Dev Tools:</span> HTML, CSS, & JavaScript.
+			</p>
+		</div>
+	</div><!-- container -->
+
+<footer>
+		<nav class="wrapper">
+			<div class="footer-left">
+				<a href="" id="copyright" class="dev">
+					<svg width="32px" height="32px" viewBox="0 0 174 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="html3">
+					    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+					    <title>html</title>
+					    <desc>Created with Sketch.</desc>
+					    <defs></defs>
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g fill-rule="nonzero" fill="#999999">
+					            <path d="M61.2452813,94.772 L0,62.9524286 L0,49.0308571 L61.2452813,17.081 L61.2452813,35.093 L18.4140938,56.2047143 L61.2452813,76.7464286 L61.2452813,94.772 Z M107.697844,0 L81.7093125,114 L66.544125,114 L92.5326563,0 L107.697844,0 Z M155.591344,56.2047143 L112.754719,35.0957143 L112.754719,17.0837143 L174,49.0308571 L174,62.9524286 L112.754719,94.772 L112.754719,76.7464286 L155.591344,56.2047143 Z" id="Shape"></path>
+					        </g>
+					    </g>
+					</svg>
+					Built by Me &#169;2017
+				</a>
+			</div>
+			<div class="footer-right">
+			<a href="mailto:alex@alexandersavard.com" class="social mail" target="_blank">
+				<svg enable-background="new 0 0 24 24" height="20px" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="20px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M11.984,13C10.031,13-0.031,4.891-0.031,4.891V4c0-1.104,0.896-2,2.002-2h20.026  C23.104,2,24,2.896,24,4l-0.016,1C23.984,5,14.031,13,11.984,13z M11.984,15.75c2.141,0,12-7.75,12-7.75L24,20  c0,1.104-0.896,2-2.003,2H1.971c-1.105,0-2.002-0.896-2.002-2l0.016-12C-0.016,8,10.031,15.75,11.984,15.75z" fill="#999999"/></svg>
+				<p>Alex@AlexanderSavard.com</p>
+			</a>
+			<a href="https://twitter.com/visably" class="social twitter" target="_blank">
+				<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.00006 244.18703" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ 				<g style="" transform="translate(-539.18 -568.86)"><path d="m633.9 812.04c112.46 0 173.96-93.168 173.96-173.96 0-2.6463-0.0539-5.2806-0.1726-7.903 11.938-8.6302 22.314-19.4 30.498-31.66-10.955 4.8694-22.744 8.1474-35.111 9.6255 12.623-7.5693 22.314-19.543 26.886-33.817-11.813 7.0031-24.895 12.093-38.824 14.841-11.157-11.884-27.041-19.317-44.629-19.317-33.764 0-61.144 27.381-61.144 61.132 0 4.7978 0.5364 9.4646 1.5854 13.941-50.815-2.5569-95.874-26.886-126.03-63.88-5.2508 9.0354-8.2785 19.531-8.2785 30.73 0 21.212 10.794 39.938 27.208 50.893-10.031-0.30992-19.454-3.0635-27.69-7.6468-0.009 0.25652-0.009 0.50661-0.009 0.78077 0 29.61 21.075 54.332 49.051 59.934-5.1376 1.4006-10.543 2.1516-16.122 2.1516-3.9336 0-7.766-0.38716-11.491-1.1026 7.7838 24.293 30.355 41.971 57.115 42.465-20.926 16.402-47.287 26.171-75.937 26.171-4.929 0-9.7983-0.28036-14.584-0.84634 27.059 17.344 59.189 27.464 93.722 27.464" fill="#999999"/></g>
+				</svg>
+			<p>@Visably</p></a>
+			<a href="https://www.linkedin.com/in/alexander-savard/" class="social linkedin" target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#999999" viewBox="0 5 1036 990"><path d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z"/></svg>
+
+				<p>W.A.Savard</p></a>
+			</div>
+		</nav>
+	</footer>
+
+<script src="js/base.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+  	console.log(this.hash);
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   	  window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- End Document
+================================================== -->
+</body>
+</html>

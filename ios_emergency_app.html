@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<!-- Yes, I did build the site... -->
+<!-- The code's not pretty but the work is. -->
+<!-- ¯\_(ツ)_/¯ -->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>iOS Emergency App</title>
+	<meta name="description" content="iOS Emergency App Designed by Alexander Savard">
+	<meta name="keywords" content="William Alexander Alex Savard RISD UX Design Designer Product Portfolio Work User Experience">
+	<meta name="author" content="Alex Savard">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<!-- <link rel="stylesheet" href="stylesheets/skeleton.css"> -->
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&amp;subset=latin-ext" rel="stylesheet">
+
+
+	<!-- jQuery
+	================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<!-- Google Analytics
+	================================================== -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108620427-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-108620427-1');
+	</script>
+
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+	<header>
+			<div class="wrapper">
+				<div class="top-wrapper">
+					<a href="index.html" class="logotype">Alex Savard<span id="ownership">'s</span>
+					</a>
+					<div id="hamburger" onclick="menuDrop()">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+				</div>				
+				<nav id="mainmenu">
+					<ul>
+						<a href="digital.html"><li>Digital Work</li></a>
+						<a href="physical.html"><li>Physical Work</li></a>
+						<a href="other_projects.html"><li>Other Projects</li></a>
+						<a href="alex.html"><li>Bio</li></a>
+						<a href="contact.html"><li>Contact Info</li></a>
+					</ul>
+				</nav>
+			</div> <!-- wrapper -->	
+	</header>
+
+
+	<div class="main-body" id="main-body">
+		<div class="scroll-section">
+			<div class="link-destination" id="overview"></div>
+			<div class="feature project-feature" id="sos">
+				<div class="wrapper dark">
+					<div class="feature-text">
+						<h1>iOS Emergency App</h1>
+						<h2>Personal Project  &nbsp;|&nbsp;  2017</h2>
+						<p>
+							In an emergency, having the right resources at the right time can be the difference between life &amp; death. Recognizing this long ago, we’ve built emergency resources into the fabric of our societies. Emergency rooms, public defibrillators, the Heimlich maneuver, &amp; the 911 system are all examples of our society’s built-in, life-saving preparation. <strong> As technology advances in the 21st century so should our systems of emergency response.</strong> With 248 Million Americans now carrying data-connected phones, the developers of those phones have a role to play in helping with emergencies and saving lives. In May 2017, I led a two-week design exploration of how Apple, as an extension of their stated commitment to user health, could build emergency resources &amp; response directly into iOS.
+						</p>
+					</div>
+				</div>
+			</div> <!-- feature -->
+		</div>
+		<div class="sub-nav-enclosure">
+<!-- 			<div class="wrapper3"  id="wrapper3" onclick="arrowTest()"> -->
+			<nav class="sub-nav wrapper3" id="subnav-anchor">
+				<ul id="sections">
+					<li onclick="subnavDrop()">Page Sections <span class="arrow" id="arrow"></span></li>
+				</ul>	
+<!-- 				</div>	 -->
+			   
+		
+
+				<ul id="section-items">
+					<a href="#overview" onclick="subnavDrop()"><li class="active" id="top-li">Overview</li></a>
+					<a href="#opportunity" onclick="subnavDrop()"><li>Opportunity</li></a>
+					<a href="#research" onclick="subnavDrop()"><li>Research</li></a>
+					<a href="#synthesis" onclick="subnavDrop()"><li>Synthesis</li></a>
+					<a href="#design-process" onclick="subnavDrop()"><li>Design Process</li></a>
+					<a href="#testing" onclick="subnavDrop()"><li>Testing</li></a>
+					<a href="#final-product" onclick="subnavDrop()"><li class="semi-highlight">Final Product</li></a>
+					<!-- <a href="#future-steps" onclick="subnavDrop()"><li>Future Steps</li></a> -->
+
+				</ul>
+			</nav>
+		</div>
+		<div class="overview">
+			<div class="wrapper">
+				<div class="specs">
+					<ul class="specs">
+						<li><em>Company:</em> 
+								Honeybee Robotics</li>
+						<li id="roles"><em>My Role:</em>
+								UX Researcher<br>
+								System Designer<br>
+								Mechanical Engineer<br>
+								Fabricator</li>
+					</ul>
+				</div><div class="specs"> <!-- Adjacent Critical -->
+					<ul class="specs">
+						<li><em>Timeline:</em> 
+								February 2014 - January 2015</li>
+						<li id="collaborators"><em>Collaborators:</em>
+								Honeybee Robotics<br>
+								NYU Poly<br>
+								Hospital for Special Surgery<br>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<!-- RESEARCH -->
+		<div class="project wrapper hr overview-section">
+			<div class="link-destination" id="overview-section"> </div>
+			<h2 class="top">Overview</h2>
+			<p>
+				In an emergency, having the right resources at the right time can be the difference between life &amp; death. Recognizing this long ago, we’ve built emergency resources into the fabric of our societies. Emergency rooms, public defibrillators, the Heimlich maneuver, &amp; the 911 system are all examples of our society’s built-in, life-saving preparation. <strong> As technology advances in the 21st century so should our systems of emergency response.</strong> With 248 Million Americans now carrying data-connected phones, the developers of those phones have a role to play in helping with emergencies and saving lives. In May 2017, I led a two-week design exploration of how Apple, as an extension of their stated commitment to user health, could build emergency resources &amp; response directly into iOS.
+			</p>
+		</div>
+
+		<div class="project wrapper hr scroll-section">
+			<div class="link-destination" id="opportunity"> </div>
+			<h2 class="top">Opportunity</h2>
+			<p>
+				Emergencies, large and small, are a part of living life. Due to their unpredictable nature, emergencies can be incredibly difficult to prepare for. Each emergency is different, requiring different resources for different situations. Preparation for emergencies can often mean planning for every emergency. Thus it it not surprising that studies show that most American do not plan for emergencies until it is too late. [2] We compensate for this lack of preparedness by building preparation into the fabric of our societies and systems. Organizations like police departments, fire departments, emergency rooms & emergency medical services ensure that we can get help in an emergency. Systems like 911 and nationalized emergency hotlines ensure that we can contact and retrieve to those services when an emergency strikes.
+			</p>
+			<img src="images/sos/car_accident_01.jpg" class="image-wide">
+			<p>
+				For the past 50 years, 911 has been the first and the most important step in accessing resources in an emergency. This system has saved hundreds of thousands lives and will continue to be our nation’s first line of defense when emergency strikes. That said, as technology advances in the 21st century so should our systems of emergency response and the 911 system used today has not advanced since it’s inception in 1967. Although a patchwork of systems exist today to augment the existing 911 system (E911, NG911, etc.) there is no reliable way for a user to transmit anything but their voice & phone number to 911 call centers.
+			</p>
+			<p>
+				248 Million Americans now carry data-connected phones capable of pin-point geolocation, image & video capture, data transmission, and  internet access. The fact that our national emergency response system has not adapted to leverage these technological abilities is disappointing it is jeopardizing lives. Consider the following example:
+			</p>
+			<p class="quote">
+				You are in a car accident on an unfamiliar highway, you need an ambulance and you call 911 from your smartphone. The 911 operator asks where you are but you have no idea. Without knowing your location, the 911 operator cannot send an ambulance. Consider that the device you are using to communicate with 911, knows exactly where you are, accurate to inches, but cannot share that data to the 911 operator trying to save your life.
+			</p>
+			<p>
+				This technological gap is a tragedy in and of itself. Scenarios similar to this are playing out daily across our country are people are dying as a result. The systems put in place to bridge this technological gap (E911 & NG911) have failed and I believe that the developers of our smart phones have a role to play in filling this gap and an opportunity to help those in an emergency.
+			</p>
+			<h3>History & Context</h3>
+			<p>
+				In 1967, the President’s Commission on Law Enforcement and Administration of Justice under Lyndon B. Johnson, recommended the creation of a single number that could be used nationwide for reporting emergencies. A year later in 1968, the first 911 call was placed in Haleyville, Alabama.
+			</p>
+			<p>
+				At the time of it’s development, 911 calls were made exclusively on landline phones and could only transmit the voices of the caller and operator. Over time, 911 operators gained special access to the landlines number (Automatic Number Location Information) and billing location (Automatic Location Information), made available by the telephone service provider through the Public Switched Telephone Network (PSTN). This breakthrough allowed 911 operators to send help without the caller having to know and communicate where they were calling from. This system of location was eventually combined with other wireless forms of geolocation to become Enhanced 911 and was mandated in 1999 by the Wireless Communications and Public Safety Act (911 Act). Despite it’s flaws E911 has been effective for decades at locating emergencies and saving lives (especially when calls are made from landlines).
+			</p>
+			<img src="images/sos/e911.png" class="image-wide">
+			<p>
+				In 2001, the National Emergency Number Association (NENA) marking the prevalence and enhanced capabilities of new cellular phones published its plans for Next Generation 911 (NG911). The new system would greatly augment the current 911 system base on current and developing technology allowing callers to transmit text, video and other data to 911 call centers. Unfortunately, the implementation of NG911 depends on mandating change within an absolute spiderweb of different intertwined stakeholders & technologies from different massive telecom companies to state & local 911 agencies. Unsurprisingly, this massive undertaking is slow moving and shows no sign of completion despite launching in 2003. Acknowledging the lack of national progress, several states have implemented their own statewide NG911 system in the intervening years.
+			</p>
+			<p>
+				Despite this meager progress in recent years, the broken, patchwork system remains and is routinely failing Americans when they need help the most.
+			</p>
+			<h3>Why iOS? Why Now?</h3>
+			<p>
+				Early in our process, after examining the issues with the current 911 system, we established a simple, guiding problem statement:
+			</p>
+			<strong>How might we help people during an emergency?</strong>
+			<p>
+				Although it was tempting to just design a generalized mobile ‘Emergency App’ for the Google Play or App Store this presented an obvious issue; as cited before, Americans do not prepare for emergencies until it is too late [2] and thus they would be unlikely to download and utilize the app in an emergency. To be truly effective, our solution would been to be embedded directly into the systems we already use and on the devices we already carry (much like 911 is built into every telephone). Integrating directly into an mobile operating system was the obvious answer. The question then became, which operating system?
+			</p>
+			<p>
+				For several critical reasons we chose iOS:
+			</p>
+			<ol>
+				<li><em>US Market Penetration.</em> There are 85.5 million mobile devices running iOS in the United States.[3]</li>
+				<li><em>Hardware & Software Consistency.</em> All hardware running iOS comes equipped with the necessary technical capabilities for NG911 (reliable geolocating, etc.). Additionally, roughly 90% of iOS users are running the latest OS version at any given time. (Compare this with Android at only 33%) [4]</li>
+				<li><em>Apple’s Commitment to Health.</em> In recent years Apple has gone above and beyond in its commitment to user health. Beginning with the introduction of the Health app in 2014, Apple has debuted a series of applications and hardware features geared at helping its users tack and maintain their health.</li>
+			</ol>
+			<strong>We see our solution as an extension of Apple’s other health-focused offerings. While the Health app can help you avoid dying of heart disease, the Emergency app can help you avoid dying of a heart attack.</strong>
+			<img src="images/sos/extending_health.png" class="image-wide" title="">
+		</div>
+
+<!-- RESEARCH -->
+
+		<div class="project wrapper scroll-section">
+			<div class="link-destination" id="research"> </div>
+
+			<h2>Research</h2>
+			<p>
+				Our project began with a simple, guiding problem statement:
+				<strong>
+				In states of emergency, information is vital and often difficult to access. How might we help people during a state of emergency?</strong>
+				When our team crafted this statement we had actually envisioned helping people during the ‘states of emergency’ that attract national attention and news coverage: natural disasters, terrorist attacks, etc. Despite these initial assumptions about who and how we might be helping, we set them aside and allowed solid research to reshape our assumptions, guide the evolution of our challenge and the design of our solution.
+			</p>
+			<h3>User Research</h3>
+			<p>
+				We began our research phase by talking to people about their experiences in times of emergency. Over the course of two days, we conducted 23 in-depth user interviews with a demographically balanced set of potential users. Users were not screened on any particular criteria because (unfortunately) emergencies impact everyone. Although we asked questions about many different things (and often let our users’ answers guide our line of questioning) we were most interested to know about the circumstances of the emergency in detail and the response of those involved. Our notes quickly filled up with detailed accounts of disaster, disorder, & the decisions made in dire circumstances.
+			</p>
+			<img src="images/sos/paul_interview.jpg" class="image-plus">
+			<p>
+				After conducting our user interviews we gathered our notes and synthesized the data using affinity mapping. Although there were many valuable patterns that emerged, one of those patterns jumped out and would reshape our project significantly. We found that very, very few people had stories to tell about the natural disasters and terrorist attacks we had initially envisioned. When we asked people about times of emergency, they reliably recounted stories (as either victim or bystander) of accidents, personal injury and personal medical emergencies. Despite our initial assumptions about our focus being on ‘collective emergencies’ (natural disasters, etc.) our user research was pointing us at more ‘individual emergencies’ that were both more common and similarly important. Further research revealed that natural disasters kill less than 400 Americans each year [5] while personal emergencies deaths total in the hundreds of thousands. Heart attacks alone claim 610,000 American lives annually. [6]
+			</p>
+			<p>
+				This revelation, brought on by our research, caused us to significantly shift our focus, from collective disasters to individual emergencies. This pivot would bring a new set of opportunities and challenges but before we could begin exploring them we wanted to know what other solutions currently exist to help people in states of emergency.
+			</p>
+			<h3>Competitive Analysis</h3>
+			<p>
+				We began our competitive analysis by researching and analyzing all available sources for resources in an emergency. Since we did not seek to replace or compete with the existing 911 infrastructure and we did not find any native emergency response features in mobile operating systems (beyond 911 calling abilities), we eventually came to focus on currently available mobile applications focused on emergency response. Of the 23 applications found we focused on a subset of nine that we found most relevant: Gaurdly, ICE Standard, Siren GPS, Disaster Alert, ARC-Emergency, ARC-First Aid, Red Panic Button, Life360, & FEMA. We sought to understand each of these applications, how they functioned and how exactly  of they provided value to the user. We took these solutions and compared them with our user research to better understand areas of opportunity.
+			</p>
+			<h3>Comparative Feature Analysis</h3>
+			<p>
+				To get a better sense of competitor’s solutions we conducted a comparative feature analysis, examining 20 features across each of our nine platforms. These features included both general information (e.g. what languages were natively available) and more specific features like notifications/alerts/reminders systems. The resulting spreadsheet (pictured below) allowed us at a glance to understanding what features were being offered different solutions. While this understanding would be helpful for us moving forward, we were careful not to simply implement all the useful features we identified but rather let our user research guide what would be most effective for our solution.
+			</p>
+			<img src="images/sos/comp_analysis_1.jpg" class="image-wide top-image">
+			<img src="images/sos/comp_analysis_2.jpg" class="image-wide bottom-image">
+			<h3>Technical Research</h3>
+			<p>
+				In addition to our competitive research we also conducted some preliminary technical research to understand the systems and technology available to us. The majority of our research conducted focused on our nation’s existing emergency response systems, detailed here in the Opportunity section above. In addition to understanding those systems we spent time researching existing APIs that could connect us with with valuable relevant information. Our shortlist of APIs included: the Gaurdly API, the Pitney Bowes Geo 911 API, the Data911 APPI, the NOAA API, the NYC311 Content API, & the Red Alert API. Understanding these resources would be essential when assessing the technical feasibility of our solutions in the design phase.
+			</p>
+		</div>
+		<div class="project wrapper hr scroll-section">
+			<div class="link-destination" id="synthesis"> </div>
+			<h2>Synthesis</h2>
+			<p>
+				Although a significant amount of synthesis was conducted in tandem with our research, we made efforts to distill all of our research into more tangible research representations that could guide our design process moving forward. Primary of these representations would be two user personas and a finalized problem statement.
+			</p>
+			<img src="images/sos/affinity_mapping.jpg" class="image-plus">
+			<p>
+				It is never easy taking a myriad of observations from research and distilling them into valuable findings and insights. To make this process easier we employed collaborative affinity mapping. Individual observations from each of our user interviews was collected and written down on a sticky note. These observations were gathered together into clusters based on their content. These collections of observations began to represent more substantiated ‘findings’ (eg users often have a difficult time describing their current location to 911 dispatchers & emergency services). These findings were further synthesized into actionable insights (eg providing accurate location information to users will better connect them to emergency services).
+			</p>
+			<h3>Persona Generation</h3>
+			<img src="images/sos/persona_generation.jpg" class="image-plus">
+			<p>
+				Using our observations, findings, and insights as a foundation we sought to build personas that would bring our research to life and make our users more tangible and understandable. We began by collecting the relevant information into five critical categories: biographical info, behavioral info, desires/wants, pains/frustrations, & needs. Because we were dealing with a expansive & diverse potential user base of 85.5 Million [3] (just within the US) we bifurcated this information into two different personas that could represent two different walks of life. These two personas would be able to better represent the different demographics (generation, gender, living environment, socioeconomic status, tech savvy, etc.) while being true to our user research. Our first persona (Scott) is an young, wealthy, financial analyst, who lives in a major city. Our second persona (Suzanne) is an older, lower-middle-class, art teacher, who lives in a small rural town. We considered both of these personas to be ‘primary’ and their needs were given equal consideration as moved through the design phase.
+			</p>
+			<h3>Revised Problem Statement</h3>
+			<p>
+				To conclude our research phase we came back to our original problem statement to hone its scope and focus:
+			</p>
+			<strong>In times of emergency, health resources are vital and often difficult to access. Using iOS11 as our primary tool, how might we help people during an emergency?</strong>
+			<p>
+				*iOS11 had debuted at WWDC’17 during our research phase. We we’re excited to expand upon the new features and design language built into the new OS.
+			</p>
+		</div>
+		<div class="project wrapper hr scroll-section">
+			<div class="link-destination" id="design-process"> </div>
+
+			<h2>Design Process</h2>
+			<p>
+				It is one thing to design an application to run on iOS and quite another to design an application to directly integrate with iOS. We knew from our research that direct integration was the right decision but we also recognized that it would bring new challenges and some critical considerations. Along with the ideation and feature prioritization we conducted, we wanted to know iOS inside and out. More specifically, we wanted to be experts on the new iOS11 (which had debuted just two days earlier) and to Apple’s Human Interface Guidelines (HIG) which governs the iOS design ethos. To better understand this system and how our solution would integrate into it, we would develop an app map, along with user & task flows; but first, we needed to get our ideas out of our heads and onto paper.
+			</p>
+			<h3>Ideation</h3>
+			<p>
+				Using our research as a guiding force, we began our design phase with an intense ideation phase. Our goal was to leave no potential solution or feature unconsidered as we moved from the conceptual to the concrete.
+			</p>
+			<img src="images/sos/design_studio.jpg" class="image-wide">
+			<h3>Design Studio</h3>
+			<p>
+				We began our ideation with an intense brainstorming exercise sometimes called Design Studio. Design Studio is team-based, time-boxed ideation technique designed to flush out as many ideas from the group as possible. When conducted well, the exercise can be incredibly effective at not only producing potential solutions but getting every member of the team on the same page.
+			</p>
+			<p>
+				Although there are different ways to conduct a Design Studio, each contains several rounds and these rounds consists of two distinct, time-boxed phases. In the first phase, every team member silently sketches out as many possible ideas as possible within the allotted time (typically 5 minutes). In the second, each team member takes a turn “pitching” their ideas to the group (2 minutes), and in turn, receiving feedback from each member of the group (1 minute each). Rounds are repeated to give each member a chance to improve upon the group’s ideas and are sometimes convergent, where each team member will focus on details of one particular solution. When conducted correctly, this produces a genuinely astonishing number of ideas & insights; this was the case for our team.
+			</p>
+			<img src="images/sos/moscow_diagram.png" class="image-wide">
+			<h3>Feature Prioritization</h3>
+			<p>
+				The result of a well-conducted design studio can be an overwhelming number of concepts, ideas, & features. Equally important to generating these ideas can be prioritizing them for further exploration & integration. After conducting our design studio we quickly but carefully documented all the ideas/features generated and prioritized them using a modified MoSCoW method.
+			</p>
+			<p>
+				For those unfamiliar, the MoSCoW method is a way of prioritizing features typically conducted when planning a MVP. Following this method, we graded each feature on its potential value (to our users) & implementation difficulty (both in design & development) and then mapped them onto a corresponding X & Y axis. The result was four categories of features: <em>m</em>ust haves, <em>s</em>hould haves, <em>c</em>ould haves, & <em>w</em>on’t haves (this is where the <em>M</em>o<em>SC</em>o<em>W</em> method gets it’s name).
+			</p>
+			<img src="images/sos/moscow_map.png" class="image-wide">
+			<p>
+				These prioritized categories, derived from the needs of our personas, would serve as a guide as we began designing our solution.
+			</p>
+			<h3>Flows & Maps</h3>
+			<p>
+				Although it would be revised and refined frequently throughout the design process we first developed a user flow of the entire system. This allowed us to come together on how we envisioned the system integrating into the native OS and how users might move through the application.
+			</p>
+			<img src="images/sos/user_flow.png" class="image-wide">
+			<img src="images/sos/task_flow.png" class="image-plus">
+			<img src="images/sos/site_map.png" class="image-plus">
+			<p>
+				Once we had a rough version of our user flow in place, we created different task flows for each of our two personas. These task flows were vital in helping us understand how our potential solution would connect with the real needs of our different users.
+			</p>
+			<p>
+				With our user & task flows in place, we created an application map for our solution. Although the map would also be revised along the way, it allowed us to see the basic structure of our solution and served as and a roadmap as we began creating wireframes.
+			</p>
+			<p>
+				Critical to our solution would be ease of access. Early on in the development of our flows we examined all the possible entry points for the application. We knew that integrating into iOS would provide more points of access than other applications.
+			</p>
+			<h3>Style Guide</h3>
+			<img src="images/sos/style_guide.png" class="image-wide">
+			<p>
+				We understood that by integrating directly into iOS11 we would need to be extremely considerate of the functional and style specifications put forth by Apple. This was not simply a matter of brand consistency. By adopting and seamlessly integrating with the native iOS design language we could increase familiarity, learnability and ultimately the usability of our solution. To ensure adherence to Apple’s latest look and feel we created our own style guide. Although minor edits would be made throughout, this style guide would serve as the backbone of our visual design language, allowing us to create a novel solution within an existing (and effective) design language.
+			</p>
+			<h3>Collaborative Sketching</h3>
+			<img src="images/sos/collaborative_sketching.jpg" class="image-wide">
+			<p>
+				We began our design process in earnest with some collaborative sketching. Using Brad Frost’s Atomic Design as framework we worked together to understand how the features we were considering would best combine into screens and how those screens would best combine into an application. Sketching together allowed us to talk through the positives and negatives of different designs and quickly come to a shared understanding on the specifics of the solution.
+			</p>
+			<h3>Wireframes</h3>
+			<p>
+				Once on the same page, we jumped directly from hand sketches into high-fidelity wireframes in Sketch. We decided to skip intermediary, greyscale wireframes for several reasons. First, working within the well defined design language of iOS11 we did not see the need for a lengthy visual design exploration. Most importantly, we recognized that our usability testing would be most accurate with high-fidelity wireframes that closely resembled a final application (than with their grey counterparts). The result was 36 unique screen designs, representing all five possible entry points, and three distinct task flows that would be used in our usability testing. More detail about the screen designs can be found in the final solution section.
+			</p>
+		</div>
+		<div class="project wrapper scroll-section">
+			<div class="link-destination" id="testing"> </div>
+
+			<h2>Prototyping & Testing</h2>
+			<p>
+				Although we felt confident our designs would effectively help our users, we had no proof it would. As a designer & an engineer, I believe that assumptions should be validated and designs should be tested before implemented. We sought to validate our proposed solution by creating a mobile prototype in InVision and conducting several rounds of usability testing.
+			</p>
+			<h3>InVision Prototype</h3>
+			<p>
+				With our initial round of wireframes completed we sought to test the efficacy of our designs with real users. We imported our designs from Sketch to InVision using Craft and created functioning mobile prototype. Although our original prototype has been replaced by more recent versions you can access a version below. (*not final)
+			</p>
+			<a href="https://invis.io/7VC2DNOWH" target="_blank" class="in-body">iOS Emergency App v3.2*</a>
+			<img src="images/sos/invision_prototype.png" class="image-full">
+			<h3>Usability Testing</h3>
+			<p>
+				Our goal in usability testing was to gain valuable, actionable insights on the usability and utility of our proposed solution. To do this we arrange controlled usability tests with seven users of different demographic backgrounds. Although there were scripted introductory remarks, preliminary questions, and concluding questions, our usability tests centered around three scenarios & tasks given to the user:
+			</p>
+			<ol>
+				<li>You are walking with your uncle. After complaining of chest pain your uncle collapses to the ground struggling to breathe. He appears to be having a heart attack.<em>Using your phone, get him help.</em></li>
+				<li>You’ve successfully called 911, help is on the way. Using the emergency app find out how you can help your uncle while you wait.<em>Using the emergency app, find out how you can help your uncle while you wait.</em></li>
+				<li>While moving apartments, your friend slams his finger in your car door and breaks it. Using the Emergency app,<em>find a hospital and navigate your way there.</em></li>
+			</ol>
+			<p>
+				In the first two scenarios, the user is situated at a simulated lock screen outside of any application and must find their way to a solution through the natural iOS environment. In the third scenario, the user is situated at the home screen of the emergency app before given their task.
+			</p>
+			<img src="images/sos/usability_testing.jpg" class="image-plus">
+			<p>
+				To better gather data and insights data from these tests, all three group members were present for each test. One member would administer the test; setting & reseting the prototype, asking questions, and giving the user their scenario & task. One member would observe and take notes and the final member would observe and record the user’s actions on video for later reference. Permission to record was always given ahead of recording. Participants were screened on only one criterion:   iPhone ownership.
+			</p>
+			<p>
+				To better simulate the elevated stress levels of an emergency situation, users were given these scenarios & tasks in the rushed, exasperated tones of someone panicking and occasionally prompted with pressuring statements like, “He’s depending on you! Quickly!”
+			</p>
+			<h3>Findings</h3>
+			<p>
+				The notes and recordings from our usability testing sessions were synthesized for insights using the same process of affinity mapping described earlier. Insights were initially separated into two primary categories, those concerning usability and those concerning utility/usefulness. Our team debriefed on both categories, to better understand what went wrong, what went right and how we could improve both in our next iteration.
+			</p>
+			<p>
+				Since the prototype leveraged many of Apple’s familiar design conventions, the application performed as anticipated in the hands of the user and usability issues were minor. Among our most important usability insights, were simple issues with insufficient contrast (making our icons difficult to see when inactive) and confusing/inconsistent copy from screen to screen.
+			</p>
+			<p>
+				Our  most significant findings were in the utility and usefulness of our solution. We were encouraged to see that (with the exception of Siri activation) all five entry points into the emergency app were utilized in our limited testing. This seemed to validate our assumption that multiple entry points would connect people more quickly to the emergency resources. Unsurprisingly many users instinctively called 911 immediately when in a life or death emergency (simulated in task #1). To my mind, this is a great thing and not something we would want to change or interfere with. We have felt from the beginning that our role was to augment our current emergency response system and not to replace it. Seeing how people actually use the system gave us concrete ideas on how we can better improve and augment the system.
+			</p>
+			<p>
+				For example, we had not considered integrating directly into the 911 call screen until we observed a user act out a 911 call. PSAP operators are trained to ask two questions at the beginning of every 911 call: What is your emergency? What is your location? Putting the user’s exact location information directly into the call screen would allow the user to quickly and accurately describe their location so that 911 operators can quickly and accurately dispatch emergency services. In our solution, a user unable to speak or understand the location information, can share their location directly with 911 by tapping “Send My Location with 911”. You can read more about this feature in the Enhanced 911 portion of the Final Product section below.
+			</p>
+			<img src="images/sos/911_before_after.jpg" class="image-wide">
+			<p>
+				All told, we found our usability testing extremely valuable and would like to do more in the future to hone our final solution.
+			</p>
+		</div>
+		<div class="project wrapper scroll-section">
+			<div class="link-destination" id="final-product"> </div>
+			<h2>Final Product</h2>
+			<p style="font-size:1.1em">
+				Our goal for this project was to get critical resources into the hands of people in emergencies and to augment the emergency response systems already saving lives. We understood (based on our research) that to do this most effectively, we needed to integrate these resources directly into a platform millions of Americans were already using. We chose to directly integrate our solution directly with iOS11 as an extension of Apple’s commitment to user health, exemplified by Apple’s Health app. While the native Health app might prevent death by long-term health risks (heart disease), we imagine the native Emergency app might prevent death from immediate health risks (heart attack). We believe, based on our research & our design validation, that if implemented this solution would help people in times of emergency & potentially save lives.
+			</p>
+			<h3>Affordances</h3>
+			<p>
+				At the most general level, our Emergency app simply is a combination of five affordances that can be critical in times of emergency:
+			</p>
+			<ol>
+				<li><em>The ability to find and share your exact location with others.</em></li>
+				<li><em>The ability to find the nearest, open hospital or medical center.</em></li>
+				<li><em>The ability to quickly access to an expanded Apple MedID profile.</em></li>
+				<li><em>The ability to access to critical first-aid information on a range of potential medical emergencies.</em></li>
+				<li><em>The ability to share precise location data with 911 while on the call.</em></li>
+			</ol>
+			<img src="images/sos/01_primary_affordances.jpg" class="image-full">
+			<h3>Access Points</h3>
+			<p>Access to these critical resources is made easy by integrating them into <em>6 locations</em> within iOS. Users can access emergency information from:
+			</p>
+			<ol>
+				<li><em>The Springboard</em> - by either launching the Emergency App or using 3D touch to access the most critical features.</li>
+				<li><em>The Control Center</em> - by either launching the Emergency App or using 3D touch to access the most critical features.</li>
+				<li><em>The Search Screen</em> - by using the Emergency widget in its collapsed or expanded form.</li>
+				<li><em>The Emergency Call Screen</em> - by tapping on the Emergency App text in the lower left hand corner.</li>
+				<li><em>The 911 Call Screen</em>by tapping on the ‘Location’ or ‘Emergency’ buttons added to the call screen (replacing the mute & number pad).</li>
+				<li><em>Siri Voice Activation</em>by simply saying “Siri, it’s an Emergency.” We imagine future iterations would have a custom Siri navigation system specifically for emergencies.</li>
+			</ol>
+			<img src="images/sos/01_access_points.jpg" class="image-full">
+			<h3>1. Location Sharing</h3>
+			<h3 class="number">The ability to find and easily share your location with others.</h3>
+			<p>
+				Although it might not seem obvious, the ability to reliably know and accurately communicate your location in an emergency is incredibly important. It might seem trivially easy to those in a familiar place but there are many times when we simply do not know exactly where we are or can’t describe where we are. Additionally, the circumstances of the emergency can complicate or compromise this ability if you are injured, stressed or in shock. At the most basic level you need to be able to communicate to 911 where you are so they can send help, in less dire circumstances you may need share your location to a caretaker or loved one. Geolocation vs Street Location.
+			</p>
+			<img src="images/sos/01_location_sharing.jpg" class="image-full">
+			<h3>2. Hospital Locator</h3>
+			<h3 class="number">The ability to find the nearest, open hospital or medical center.</h3>
+			<p>
+				Equally important to contacting emergency medical response can be getting to an emergency medical center if you are able. With one touch the Emergency app allows you to locate the the nearest emergency medical center and navigate there. Our maps & navigation systems would leverage the full abilities of Apple Maps without leaving the Emergency app.
+			</p>
+			<img src="images/sos/02_hospital_locator.jpg" class="image-wide">
+			<h3>3. Another Home for MedID</h3>
+			<h3 class="number">The ability to quickly access to your Apple MedID profile.</h3>
+			<p>
+				Accessing your own medical information and your emergency contacts can be vital for users and the first responders that treat them. Apple recognized this and implemented Apple MedID years ago with the launch of iOS8. MedID currently lives in the Health app but we feel another useful home would be alongside other vital information in the Emergency app. In addition to all of the vital information in MedID, we have taken the emergency contact info and copied it into the Emergency home page for easier access.
+			</p>
+			<h3>4. "How To Help"</h3>
+			<h3 class="number">The ability to access to critical first-aid information on a range of potential medical emergencies.</h3>
+			<p>
+				In addition to the resources above, which are designed to augment our current emergency response systems, we’ve included a feature called “How to Help”. How to Help connects the user with valuable first-aid information on a variety of potential medical emergencies so that they can better understand and act should these situations arise. If someone appears to be having a seizure, how do you know & what should you do to help? This system is not designed to replace a call to 911 (and says so) but through our research we recognized many situations where this information would be helpful and potentially life saving. At the moment such information is reliant on uninformed internet queries and requires a stable internet connection which may or may not be available. This system of information would be vetted by medical professionals and accessible at the touch of a button without an internet connection. <em>Not being medical experts ourself we pulled our information for this iteration from the American Red Cross and emulated how they instruct people to act in different emergency circumstances.</em>
+			</p>
+			<img src="images/sos/01_how_to_help.jpg" class="image-full">
+			<h3>5. Enhanced 911</h3>
+			<h3 class="number">The ability to share location data directly with 911 while on the call.</h3>
+			<p>
+				In our usability tests we observed that users consistently navigated to 911 first for help in an emergency. We see this as a great thing and do not want to change or interfere with that instinct or that system. But we believe there is an great opportunity to augment that experience using iOS.
+			</p>
+			<p>
+				Every 911 PSAP operator is taught to ask two critical questions as soon as they pick up the phone: “What is your emergency?” and “What is your location?” This is the most critical information to give a 911 operator so that they can get you help. Unfortunately, there are many scenarios where you simply do not know where you are or you cannot communicate that information for one reason or another (e.g. you’re somewhere unfamiliar, you don’t remember due to injury or trauma, you don’t speak the native language, etc.). We’ve attempted to solve this by integrating that information directly into the 911 call screen. When you dial 911 by any means, your iPhone detects the emergency call and goes into a special emergency mode. Two new buttons are present on the screen replacing the mute & dial pad buttons: Location & Emergency. Tapping on the Location button reveals a My Location action sheet displaying your nearest street address and your geolocation in latitude and longitude. We anticipate geolocation being critical in rural and wilderness emergencies (e.g. hiking). If you are unable to read or relay that information with your voice, Siri will do it for you. Tap “Send My Location to 911” and Siri will interrupt the call temporarily while she reads your location aloud to the 911 operator. You can stop or mute this transmission at any time.
+			</p>
+			<p>
+				Failing to accurately communicate you location to 911 in an emergency can be the difference between life and death. This subtle addition to the 911 call screen could make a huge difference. It is our hope that this simple feature would be so effective that it would be requested by the 911 operator, added to their training, and even federally mandated for all smart phones as a life-saving feature.
+			</p>
+			<img src="images/sos/01_enhanced_911.jpg" class="image-full margin-fix">
+			<h2>Future Steps</h2>
+			<p>
+				Although we feel proud of our research & our solution there is still much more we would like to do. Constrained by time and the resources of our small team we did not get to design or implement everything we would have liked. In the future we would like to:
+			</p>
+			<ul>
+				<li><em>Continue usability testing</em> our current solution and iterate more on the product detailed here.</li>
+				<li><em>Conduct a contextual inquiry with an 911 PSAP operator & an EMT</em> to get a better understanding of how we can help them. We did conduct an interview with a licensed EMT which was helpful.</li>
+				<li>Explore how our solution (which focused on helping people in America) could be <em>expanded throughout the world</em> This would begin with translation and understanding what unique challenges each country faces but might require tailoring the system to each country’s national emergency response system.</li>
+				<li><em>Integrate better with and expand to WatchOS.</em> Although we chose the iPhone as our primary platform, there is every reason to expand to the Apple watch. In addition to providing the same critical resources, we believe there are significant new opportunities, given access to user biometric information like heart rate and facial expression.</li>
+				<li>Explore how (in addition to helping people in emergencies) we could <em>help people cope with traumatic emergencies.</em> This could include integration with WatchOS’s native Breathe app or heart rate monitor.</li>
+			</ul>
+			<p>
+				Although there is much work to be done if this project is ever to be implemented, our team feels proud of the work we’ve done here to start that process. We believe — based on our research & our design validation — that if implemented, this solution could truly help those in emergencies & potentially save lives.
+			</p>
+		</div>
+		<div class="project wrapper hr sources">
+			<h2 id="#sources">Sources</h2>
+			<a href="http://www.pewresearch.org/fact-tank/2017/01/12/evolution-of-technology/" target="_blank">[1] http://www.pewresearch.org/fact-tank/2017/01/12/evolution-of-technology/</a>
+			<a href="https://www.fema.gov/media-library-data/1409000888026-1e8abc820153a6c8cde24ce42c16e857/20140825_Preparedness_in_America_August_2014_Update_508.pdf" target="_blank">[2] https://www.fema.gov/media-library-data/1409000888026-1e8abc820153a6c8cde24ce42c16e857/20140825_Preparedness_in_America_August_2014_Update_508.pdf</a>
+			<a href="http://www.comscore.com/Insights/Blog/US-iPhone-Ownership-Reaches-All-Time-High-on-Strength-of-iPhone-7" target="_blank">[3] http://www.comscore.com/Insights/Blog/US-iPhone-Ownership-Reaches-All-Time-High-on-Strength-of-iPhone-7</a>
+			<a href="https://android.jlelse.eu/apple-vs-android-a-comparative-study-2017-c5799a0a1683" target="_blank">[4] https://android.jlelse.eu/apple-vs-android-a-comparative-study-2017-c5799a0a1683</a>
+			<a href="https://www.statista.com/statistics/236509/number-of-fatalities-from-natural-disasters-in-the-us/" target="_blank">[5] https://www.statista.com/statistics/236509/number-of-fatalities-from-natural-disasters-in-the-us/</a>
+			<a href="https://www.cdc.gov/heartdisease/facts.htm" target="_blank">[6]https://www.cdc.gov/heartdisease/facts.htm</a>
+			<a href=""></a>
+		</div>
+	</div> <!-- main body -->	
+
+<footer>
+		<nav class="wrapper">
+			<div class="footer-left">
+				<a href="" id="copyright" class="dev">
+					<svg width="32px" height="32px" viewBox="0 0 174 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="html3">
+					    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+					    <title>html</title>
+					    <desc>Created with Sketch.</desc>
+					    <defs></defs>
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g fill-rule="nonzero" fill="#999999">
+					            <path d="M61.2452813,94.772 L0,62.9524286 L0,49.0308571 L61.2452813,17.081 L61.2452813,35.093 L18.4140938,56.2047143 L61.2452813,76.7464286 L61.2452813,94.772 Z M107.697844,0 L81.7093125,114 L66.544125,114 L92.5326563,0 L107.697844,0 Z M155.591344,56.2047143 L112.754719,35.0957143 L112.754719,17.0837143 L174,49.0308571 L174,62.9524286 L112.754719,94.772 L112.754719,76.7464286 L155.591344,56.2047143 Z" id="Shape"></path>
+					        </g>
+					    </g>
+					</svg>
+					Built by Me &#169;2017
+				</a>
+			</div>
+			<div class="footer-right">
+			<a href="mailto:alex@alexandersavard.com" class="social mail" target="_blank">
+				<svg enable-background="new 0 0 24 24" height="20px" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="20px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M11.984,13C10.031,13-0.031,4.891-0.031,4.891V4c0-1.104,0.896-2,2.002-2h20.026  C23.104,2,24,2.896,24,4l-0.016,1C23.984,5,14.031,13,11.984,13z M11.984,15.75c2.141,0,12-7.75,12-7.75L24,20  c0,1.104-0.896,2-2.003,2H1.971c-1.105,0-2.002-0.896-2.002-2l0.016-12C-0.016,8,10.031,15.75,11.984,15.75z" fill="#999999"/></svg>
+				<p>Alex@AlexanderSavard.com</p>
+			</a>
+			<a href="https://twitter.com/visably" class="social twitter" target="_blank">
+				<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.00006 244.18703" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ 				<g style="" transform="translate(-539.18 -568.86)"><path d="m633.9 812.04c112.46 0 173.96-93.168 173.96-173.96 0-2.6463-0.0539-5.2806-0.1726-7.903 11.938-8.6302 22.314-19.4 30.498-31.66-10.955 4.8694-22.744 8.1474-35.111 9.6255 12.623-7.5693 22.314-19.543 26.886-33.817-11.813 7.0031-24.895 12.093-38.824 14.841-11.157-11.884-27.041-19.317-44.629-19.317-33.764 0-61.144 27.381-61.144 61.132 0 4.7978 0.5364 9.4646 1.5854 13.941-50.815-2.5569-95.874-26.886-126.03-63.88-5.2508 9.0354-8.2785 19.531-8.2785 30.73 0 21.212 10.794 39.938 27.208 50.893-10.031-0.30992-19.454-3.0635-27.69-7.6468-0.009 0.25652-0.009 0.50661-0.009 0.78077 0 29.61 21.075 54.332 49.051 59.934-5.1376 1.4006-10.543 2.1516-16.122 2.1516-3.9336 0-7.766-0.38716-11.491-1.1026 7.7838 24.293 30.355 41.971 57.115 42.465-20.926 16.402-47.287 26.171-75.937 26.171-4.929 0-9.7983-0.28036-14.584-0.84634 27.059 17.344 59.189 27.464 93.722 27.464" fill="#999999"/></g>
+				</svg>
+			<p>@Visably</p></a>
+			<a href="https://www.linkedin.com/in/alexander-savard/" class="social linkedin" target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#999999" viewBox="0 5 1036 990"><path d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z"/></svg>
+
+				<p>W.A.Savard</p></a>
+			</div>
+		</nav>
+	</footer>
+
+<script src="js/base.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+  	console.log(this.hash);
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1600, function(){
+   	  window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- End Document
+================================================== -->
+</body>
+</html>
